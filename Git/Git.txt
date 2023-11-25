@@ -1,0 +1,52 @@
+# Git Commands
+
+# Initialize a new Git repository
+git init
+
+# Create a copy of a remote repository
+git clone <repository_url>
+
+# Set global user name
+git config --global user.name "Your Name"
+
+# Set global user email
+git config --global user.email "email@example.com"
+
+# Check status of changes
+git status
+
+# Stage changes for commit
+git add <file>
+
+# Commit staged changes with a message
+git commit -m "message"
+
+# Display commit history
+git log
+
+# Create a new branch
+git branch <branch_name>
+
+# Switch to a different branch
+git checkout <branch_name>
+
+# Merge changes from one branch into another
+git merge <branch_name>
+
+# Push changes to a remote repository
+git push origin <branch_name>
+
+# Fetch changes from a remote repository
+git fetch
+
+# Pull changes from a remote repository
+git pull origin <branch_name>
+
+# Discard changes in the working directory
+git reset --hard HEAD
+
+# Revert a commit
+git revert <commit_hash>
+
+# Soft reset to the commit before "CommitHashUAddedCreds"
+git reset --soft CommitHashUAddedCreds^
