@@ -24,6 +24,10 @@ git commit -m "message"
 # Display commit history
 git log
 
+# Check for specific text in commit history
+git log -S"text" 
+git log -S"text" -- file.ext
+
 # Create a new branch
 git branch <branch_name>
 
